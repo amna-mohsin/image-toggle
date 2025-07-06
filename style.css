@@ -1,0 +1,30 @@
+body {
+  background-color: azure;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.container img.hover {
+  opacity: 0;
+}
+
+.container:hover img.hover {
+  opacity: 1;
+}
